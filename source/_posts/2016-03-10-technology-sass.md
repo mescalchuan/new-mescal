@@ -3,7 +3,8 @@ layout: post
 title: Sass初学
 date: 2016-03-10 13:32:20 +0300
 description: 
-cover: /img/mescal/15.jpg # Add image post (optional)
+catalog: true
+header-img: /img/15.jpg # Add image post (optional)
 tags: 
     - 博客
     - 技术博客
@@ -28,7 +29,7 @@ gem install sass
 sass -v
 ```
 来查看版本，这也正说明了Sass已经安装成功了。
-<br>
+
 ### 编译Sass
 #### 1.命令行编译
 单文件一次性编译
@@ -45,7 +46,8 @@ sass --watch style.scss:style.css
 sublime支持安装编译Sass文件的插件，webstorm本身就自带编译Sass，这里就不详细介绍了。
 #### 4.使用在线编译器 
 [戳这里](http://www.sassmeister.com/)
-<br>
+
+
 ### Sass常用语法
 sass有两种后缀名文件：一种后缀名为sass，不使用大括号和分号；另一种就是scss(支持css3，推荐使用)
 #### 1.文件导入
@@ -54,10 +56,12 @@ sass有两种后缀名文件：一种后缀名为sass，不使用大括号和分
 ```
 @import "style"//省略后缀的style.scss
 ```
-<br>
+
+
 #### 2.注释
 与Less相同，Sass有两种注释：编译到css文件的/**/和不被保存的//。
-<br>
+
+
 #### 3.变量
 使用"$变量名"的方式来声明一个变量，与Less的@变量名不同，Sass的这种声明方式更加接近高级程序设计语言。
 ```
@@ -73,7 +77,8 @@ $var:left;
     border-#{$var}:1px solid black;//border-left
 }
 ```
-<br>
+
+
 #### 4.嵌套
 Sass支持选择器的嵌套，使得父子关系和代码结构更加清晰。
 ```
@@ -111,7 +116,8 @@ Sass支持选择器的嵌套，使得父子关系和代码结构更加清晰。
 //.father .son{}
 //.skip{}
 ```
-<br>
+
+
 #### 5.mixin 混合
 mixin可以实现类似于函数的功能，它可以无参，可以有参，也可以指定默认参数。用法和Less相似。
 通过@mixin来创建一个混合，通过@include来使用它。
@@ -158,7 +164,8 @@ mixin最常用的地方就是css3的hack代码(如border-radius等)
 　　border-#{$v}-#{$h}-radius: $radius;
 }
 ```
-<br>
+
+
 #### 6.继承
 Sass的继承类似于高级程序设计语言的继承，可以使用@extend从一个选择器(占位符)继承它的样式。
 ```
@@ -184,7 +191,8 @@ Sass的继承类似于高级程序设计语言的继承，可以使用@extend从
   border-width:2px;
 }
 ```
-<br>
+
+
 #### 7.函数
 Sass提供了一些函数，其中最常用的是color函数。用户也可以自己定义函数。
 常用的color函数:lighten($color,$amount)和darken($color,$amount)代表颜色减淡和加深,第一个参数为颜色，第二个参数为百分比。
@@ -202,7 +210,8 @@ body{
   width:myfunction(300);
 }
 ```
-<br>
+
+
 #### 8.运算
 Sass支持变量之间以及变量直接和数值的运算，要注意运算符前面要有一个空格。用法同Sass，这里就不详细叙述了。
 条件语句@if和@else：

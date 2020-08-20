@@ -3,7 +3,8 @@ layout: post
 title: ES6学习笔记（二）
 date: 2016-10-30 13:32:20 +0300
 description: 
-cover: /img/mescal/11.jpg # Add image post (optional)
+catalog: true
+header-img: /img/11.jpg # Add image post (optional)
 tags: 
 	- 博客
 	- 技术博客

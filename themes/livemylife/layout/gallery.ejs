@@ -1,0 +1,26 @@
+---
+layout: layout
+---
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <!-- 标签云 -->
+      <div class="tags">
+        <% for(var k in config.gallery) { %>
+        <div style="margin: 20px 0;">
+          <div style="margin-bottom: 20px;">
+            <span class="fa fa-tag listing-seperator"><%= k %></span>
+          </div>
+          <div class="post-container" style="font-size: 0;">
+            <% config.gallery[k].map(function(img, i){ %>
+              <img src="<%= img.url %>" style="width: 350px;margin: 3px;display: inline-block;" alt="<%= img.remark %>"/>
+            <%}) %>
+          </div>
+        </div>
+        <% } %>
+      </div>
+
+    </div>
+  </div>
+</div>

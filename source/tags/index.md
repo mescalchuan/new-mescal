@@ -1,6 +1,6 @@
 ---
-title: tags
-date: 2019-04-25 18:57:28
-layout: tags
-type: tags
+layout: "tags"
+title: "标签"
+description: "所有牛鬼蛇神都是你的堡垒"
+header-img: "img/about.jpeg"
 ---

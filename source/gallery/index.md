@@ -1,6 +1,6 @@
 ---
-title: gallery
-date: 2019-04-25 18:58:07
-layout: gallery
-type: gallery
+layout: "gallery"
+title: "摄影"
+description: "时间带走一切，却温暖了岁月"
+header-img: "img/about.jpeg"
 ---

@@ -2,8 +2,9 @@
 layout: post
 title: React Native之巧用TextInput
 date: 2018-01-19 13:32:20 +0300
-description: 
-cover: /img/mescal/6.jpg # Add image post (optional)
+description:
+catalog: true 
+header-img: /img/6.jpg # Add image post (optional)
 tags: 
     - 博客
     - 技术博客

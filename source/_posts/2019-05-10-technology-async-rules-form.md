@@ -3,7 +3,8 @@ layout: post
 title: IVIEW 动态校验规则组件
 date: 2019-05-10 09:23:19 +0300
 description: 
-cover: /img/mescal/17.jpg # Add image post (optional)
+catalog: true
+header-img: /img/16.jpg # Add image post (optional)
 tags: 
     - 博客
     - 技术博客

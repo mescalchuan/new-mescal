@@ -3,7 +3,8 @@ layout: post
 title: 近日使用React Native Linking踩过的坑
 date: 2017-11-20 13:32:20 +0300
 description: 
-cover: /img/mescal/7.jpg # Add image post (optional)
+catalog: true
+header-img: /img/7.jpg # Add image post (optional)
 tags: 
     - 博客
     - 技术博客

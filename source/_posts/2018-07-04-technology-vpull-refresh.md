@@ -3,7 +3,8 @@ layout: post
 title: 基于vue封装的轻量级下拉刷新组件
 date: 2018-07-04 13:32:20 +0300
 description: 
-cover: /img/mescal/2.jpg # Add image post (optional)
+catalog: true
+header-img: /img/2.jpg # Add image post (optional)
 tags: 
   - 博客
   - 技术博客

@@ -3,7 +3,8 @@ layout: post
 title: 用ES6书写React
 date: 2016-11-03 13:32:20 +0300
 description: 
-cover: /img/mescal/10.jpg # Add image post (optional)
+catalog: true
+header-img: /img/10.jpg # Add image post (optional)
 tags: 
   - 博客
   - 技术博客

@@ -3,7 +3,8 @@ layout: post
 title: Css Block
 date: 2019-10-16 13:32:20 +0300
 description: 
-cover: /img/mescal/18.jpg # Add image post (optional)
+catalog: true
+header-img: /img/16.jpg # Add image post (optional)
 tags: 
     - 博客
     - 技术博客

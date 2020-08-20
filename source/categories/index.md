@@ -1,6 +1,6 @@
 ---
-title: categories
-date: 2019-04-25 18:56:26
-layout: categories
-type: categories
+layout: "categories"
+title: "分类"
+description: "一路走来难免有些糊涂，难免会把谁辜负"
+header-img: "img/about.jpeg"
 ---

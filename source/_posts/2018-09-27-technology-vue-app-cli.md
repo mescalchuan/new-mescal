@@ -3,7 +3,8 @@ layout: post
 title:  快速开发基于vue的app应用——vue-app-cli
 date:   2018-09-27 13:32:20 +0300
 description: 一个能够让你快速构建基于vue的app多页应用脚手架，可独立开发h5 app或集成到dcloud开发原生app
-cover: /img/mescal/1.jpg # Add image post (optional)
+catalog: true
+header-img: /img/1.jpg # Add image post (optional)
 tags: 
     - 博客
     - 技术博客

@@ -3,7 +3,8 @@ layout: post
 title: Blob对象
 date: 2016-08-02 13:32:20 +0300
 description: 
-cover: /img/mescal/13.jpg # Add image post (optional)
+catalog: true
+header-img: /img/13.jpg # Add image post (optional)
 tags: 
      - 博客
      - 技术博客
