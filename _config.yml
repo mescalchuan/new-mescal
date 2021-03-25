@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一个爱玩的 FE
+title: 一个瞎折腾的 FE 工程师
 subtitle: Mescal Chuan
 author: Mescal Chuan
 language: zh-CN
@@ -63,8 +63,8 @@ weibo_username:
 
 # Sidebar Settings
 sidebar: true   # whether or not using Sidebar.
-sidebar-about-description: "林深时见鹿，老树陪古屋"
-sidebar-avatar: /img/about5.jpeg    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "雨滴掌心 装不下世界的一厘米"
+sidebar-avatar: /img/about6.jpeg    # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - visitor   # busuanzi: https://busuanzi.ibruce.info/
 - featured-tags

@@ -1,6 +1,6 @@
 ---
 layout: "gallery"
 title: "摄影"
-description: "时间带走一切，却温暖了岁月"
+description: "在滚滚浊世绝不把梦交出，尽管过程多残酷"
 header-img: "img/about.jpeg"
 ---
